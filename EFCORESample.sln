@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCORESample", "EFCORESampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCEFCORE", "MVCEFCORE\MVCEFCORE.csproj", "{75C0C037-F752-44EC-8B6B-F8C9BFB697D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFirst", "DbFirst\DbFirst.csproj", "{C2B24516-03C4-40C6-98B2-0ACF278B3CE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbFirst", "DbFirst\DbFirst.csproj", "{C2B24516-03C4-40C6-98B2-0ACF278B3CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{AD336E3E-C8AC-4A58-A88A-77FCB7B64C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerAPI", "CustomerAPI\CustomerAPI.csproj", "{91CB3AD3-F052-484C-90D8-EE84AC70B61A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{C2B24516-03C4-40C6-98B2-0ACF278B3CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2B24516-03C4-40C6-98B2-0ACF278B3CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2B24516-03C4-40C6-98B2-0ACF278B3CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD336E3E-C8AC-4A58-A88A-77FCB7B64C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD336E3E-C8AC-4A58-A88A-77FCB7B64C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD336E3E-C8AC-4A58-A88A-77FCB7B64C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD336E3E-C8AC-4A58-A88A-77FCB7B64C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CB3AD3-F052-484C-90D8-EE84AC70B61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CB3AD3-F052-484C-90D8-EE84AC70B61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CB3AD3-F052-484C-90D8-EE84AC70B61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CB3AD3-F052-484C-90D8-EE84AC70B61A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

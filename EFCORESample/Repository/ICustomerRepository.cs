@@ -8,5 +8,6 @@ namespace EFCORESample.Repository
     {
         List<Customer> GetCustomers();
         bool AddCustomer(Customer customer);
+        Customer GetCustomer(int Id);
     }
 }

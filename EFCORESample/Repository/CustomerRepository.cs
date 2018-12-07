@@ -24,9 +24,14 @@ namespace EFCORESample.Repository
                 return false;
         }
 
+        public Customer GetCustomer(int Id)
+        {
+            return customerDbContext.Customers.FirstOrDefault(c => c.Id == Id);
+        }
+
         public List<Customer> GetCustomers()
         {
-            return customerDbContext.Customers.ToList();
+           return customerDbContext.Customers.ToList();
         }
     }
 }
